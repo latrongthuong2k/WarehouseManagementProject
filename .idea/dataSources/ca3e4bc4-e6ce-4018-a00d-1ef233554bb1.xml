@@ -1013,8 +1013,8 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="294" parent="1" name="projectMD3_Db">
-      <IntrospectionTimestamp>2023-10-14.05:05:52</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-10-13.11:05:52</LocalIntrospectionTimestamp>
+      <IntrospectionTimestamp>2023-10-15.10:33:18</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-10-14.16:33:18</LocalIntrospectionTimestamp>
       <CollationName>utf8mb4_vietnamese_ci</CollationName>
     </schema>
     <schema id="295" parent="1" name="quanLySanPham">
@@ -1906,7 +1906,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Position>2</Position>
     </argument>
     <column id="499" parent="353" name="Acc_id">
-      <AutoIncrement>29</AutoIncrement>
+      <AutoIncrement>31</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -1963,7 +1963,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>Emp_id</UnderlyingIndexName>
     </key>
     <column id="511" parent="354" name="Bill_id">
-      <AutoIncrement>24</AutoIncrement>
+      <AutoIncrement>42</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
@@ -2048,7 +2048,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Predicate>`Quantity` &gt; 0</Predicate>
     </check>
     <column id="529" parent="355" name="Bill_Detail_Id">
-      <AutoIncrement>23</AutoIncrement>
+      <AutoIncrement>33</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
